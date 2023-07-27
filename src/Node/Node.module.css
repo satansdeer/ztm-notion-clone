@@ -1,0 +1,51 @@
+.node {
+	border-radius: 4px;
+	padding: 6px 6px 6px 46px;
+	cursor: text;
+	width: 100%;
+}
+
+.page {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.page:hover {
+	background-color: #f0f0f0;
+}
+
+.list {
+	position: relative;
+	padding-left: 20px;
+}
+
+.list::after {
+	content: "";
+	position: absolute;
+	bottom: 50%;
+	left: 6px;
+	width: 6px;
+	height: 6px;
+	background-color: #222;
+	border-radius: 50%;
+	transform: translateY(50%);
+}
+
+.heading1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.heading2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.heading3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.focused {
+	background-color: #00bcd4;
+}
