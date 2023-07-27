@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import { Cover } from "./Page/Cover";
 
 function App() {
-
   return (
     <>
-			Notion Clone
+      <Cover />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
