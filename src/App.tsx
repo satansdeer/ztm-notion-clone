@@ -1,4 +1,3 @@
-import "./App.css";
 import { Cover } from "./Page/Cover";
 
 function App() {
