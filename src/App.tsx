@@ -1,11 +1,7 @@
-import { Cover } from "./Page/Cover";
+import { Page } from "./Page/Page";
 
 function App() {
-  return (
-    <>
-      <Cover />
-    </>
-  );
+  return <Page />;
 }
 
 export default App;
