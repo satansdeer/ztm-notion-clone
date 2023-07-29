@@ -1,0 +1,43 @@
+.panel {
+	z-index: 10;
+	position: absolute;
+	bottom: -10px;
+	left: 60px;
+	background: white;
+	width: 200px;
+	padding: 6px;
+	transform: translateY(100%);
+	border-radius: 4px;
+	box-shadow: rgb(15 15 15 / 10%) 0px 0px 0px 1px,
+		rgb(15 15 15 / 20%) 0px 3px 6px, rgb(15 15 15 / 40%) 0px 9px 24px;
+}
+
+.panel.reverse {
+	transform: translateY(-50px);
+}
+
+.panel ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.panel ul li {
+	padding: 12px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.panel ul li:hover {
+	background-color: #d0d0d0;
+}
+
+.panel ul li.selected {
+	background-color: #d0d0d0;
+}
+
+.title {
+	font-weight: bold;
+	padding: 12px;
+}
