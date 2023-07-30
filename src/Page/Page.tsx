@@ -12,7 +12,7 @@ import {
 } from "@dnd-kit/sortable";
 
 export const Page = () => {
-  const { title, nodes, addNode, reorderNodes, setTitle } = useAppState();
+  const { title, nodes, addNode, cover, setCoverImage, reorderNodes, setTitle } = useAppState();
 
   const [focusedNodeIndex, setFocusedNodeIndex] = useFocusedNodeIndex({
     nodes,
@@ -27,7 +27,7 @@ export const Page = () => {
 
   return (
     <>
-      <Cover />
+      <Cover filePath={cover} changePageCover={setCoverImage} />
       <div>
         <Title addNode={addNode} title={title} changePageTitle={setTitle} />
         <DndContext onDragEnd={handleDragEvent}>
