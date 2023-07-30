@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	padding-left: 18px;
+}
+
+.container img {
+	width: 100%;
+}
+
+.dragHandle {
+	padding: 6px;
+	cursor: grab;
+	font-weight: bold;
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
+}
+
+.dragHandle:hover {
+	opacity: 1;
+}
