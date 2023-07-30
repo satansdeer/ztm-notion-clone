@@ -1,0 +1,65 @@
+{
+	"title": "Welcome to ZTM Notes",
+	"nodes": [
+		{
+			"type": "text",
+			"value": "This app is written in React + TypeScript and works similarly to Notion. For example, try entering the text below this paragraph 👇",
+			"id": "dgkm6uWT58KKIvBuo4KCE"
+		},
+		{ "type": "text", "value": "", "id": "cZjPbQHUQmv5h-v1rpDoD" },
+		{
+			"type": "text",
+			"value": "You can also add lists, to do this bring up the command palette by starting a new line with `/`",
+			"id": "eK__MFBh2DieZzKQDf5rl"
+		},
+		{ "type": "text", "value": "", "id": "IYd7XsCkoiqysGrOLvM0B" },
+		{
+			"type": "text",
+			"value": "Here are a few list items just to show how it looks like:",
+			"id": "tGEVZQlUB_zGi66GU2TIz"
+		},
+		{ "type": "list", "value": "First item", "id": "zJ42BYE7QCx_1XSsZETuc" },
+		{ "type": "list", "value": "Second item", "id": "ia_pE2qrqR8un_BYqqM9_" },
+		{ "type": "list", "value": "Third item", "id": "gD6IRCl09HQGpaDorOiF6" },
+		{ "type": "text", "value": "", "id": "pH0TGrzTJ09_8w8XXfKO8" },
+		{
+			"type": "heading2",
+			"value": "You can add headings as well",
+			"id": "qbsmQ_NkTC7jRO4csWL8h"
+		},
+		{
+			"type": "text",
+			"value": "If you tried adding list items, you've noticed that there are also other types of blocks.",
+			"id": "e1pnucOk3k_G3_Gjw7SrB"
+		},
+		{ "type": "text", "value": "", "id": "Zctuc8G9XyWEPhUGIYBVW" },
+		{
+			"type": "text",
+			"value": "Currently the app supports:",
+			"id": "v3s7NU1a-X_uWSAELT2nK"
+		},
+		{ "type": "list", "value": "regular text", "id": "ADtjGSZ4p53f9VpQK72f1" },
+		{
+			"type": "list",
+			"value": "unordered lists",
+			"id": "Zrwh60KFLzqeBmmhAAKDN"
+		},
+		{
+			"type": "list",
+			"value": "heading levels 1-3",
+			"id": "SLNB1qZ3TuGiNerxfAL7N"
+		},
+		{ "type": "list", "value": "images", "id": "rT-xkKSS3l23Olui4XUF8" },
+		{
+			"type": "list",
+			"value": "links to other pages",
+			"id": "oHdB3ghNMer9DTlCp0dhA"
+		},
+		{ "type": "text", "value": "", "id": "qD6vnHeExO5gTg5ZmPUt3" },
+		{
+			"type": "text",
+			"value": "Try adding a new page.",
+			"id": "765A3xPw56d8j7NcYpi3D"
+		}
+	]
+}
