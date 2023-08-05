@@ -1,27 +1,42 @@
-# React + TypeScript + Vite
+# Zero To Mastery - React TypeScript Course. Notion Clone.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![05 Basic Implementation-cropped](https://github.com/satansdeer/ztm-notion-clone/assets/450319/2940d0fb-2de9-42cb-815f-8383d0904ae4)
 
-Currently, two official plugins are available:
+Notion-like app that allows users to create notes and organize them in a tree structure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Authentication
+- Create, update and delete notes
+- Create, update and delete images
+- Reorder notes
+- Change page title
+- Change page cover image
+- Create, update and delete pages
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tech Stack
 
-- Configure the top-level `parserOptions` property like this:
+The app is generated with Vite and uses the following technologies:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- React
+- TypeScript
+- DndKit (drag and drop)
+- CSS Modules
+- Supabase (database, authentication, storage)
+- Netlify (hosting)
+
+## Running the app
+
+To run the app locally, you need to create a Supabase project and add the following environment variables to your `.env` file:
+
+```
+VITE_SUPABASE_URL=""
+VITE_SUPABASE_API_KEY=""
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Then run the following commands:
+
+```
+npm install
+npm run dev
+```
