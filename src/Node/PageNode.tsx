@@ -41,7 +41,7 @@ export const PageNode = ({ node, isFocused, index }: PageNodeProps) => {
   useEffect(() => {
     const fetchPageTitle = async () => {
       const { data } = await supabase
-        .from("page")
+        .from("pages")
         .select("title")
         .eq("slug", node.value)
         .single();
